@@ -56,6 +56,10 @@ void printTypeConfusion(int ErrorType, uint64_t SrcHash, uint64_t DstHash) {
     }
   free(strings);
 #endif
+
+#ifdef ABORT_ON_ERROR
+  abort();
+#endif
 }
 
 static void PrintStatResult(void) {

@@ -7,6 +7,7 @@
 #define HEX_LOG
 #define PRINT_BAD_CASTING
 #define PRINT_BAD_CASTING_FILE
+#define ABORT_ON_ERROR
 
 enum rbtree_node_color { RED, BLACK };
 
